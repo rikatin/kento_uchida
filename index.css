@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+}
+
+.clearfix::after {
+	content: “”;
+	display: block;
+	clear: both;
+}
+
+a{
+	text-decoration: none;
+}
+
+li{
+	list-style: none;
+}
+
+.container{
+	max-width: 1220px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+header h1{
+	font-size: 30px;
+	text-align: center;
+	margin: 60px;
+}
+
+header ul {
+	list-style-type: none;
+	padding-left: 0;
+	margin-bottom:30px;
+}
+
+header li {
+	width: 50px;
+	height: 50px;
+	padding: 10px;
+	margin: 10px;
+}
+
+.inline {
+	text-align: center;
+}
+
+.inline li {
+	display: inline;
+}
+
+header a{
+	color: black;
+
+}
+
+.sns{
+	position: absolute;
+	right: 20%;
+	top:60px;
+}
+
+i.fab.fa-instagram{
+	font-size: 30px;
+}
+
+i.fab.fa-facebook-square{
+	font-size: 30px;
+}
+
+.fa-instagram{
+	margin-right: 20px;
+}
+
+.top-visual{
+	background-color: #343434;
+	width: 100%;
+	height: 450px;
+}
+
+.container-1{
+	max-width: 950px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#message{
+	text-align: center;
+	margin-top:100px;
+}
+
+#message p{
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+.gallery-1{
+	display: flex;
+	width: 100%;
+}
+
+.gallery-1 img{
+	align-content: stretch;
+	width: 33.333333333333%;
+}
+
+#profile{
+	text-align: center;
+	margin-top:100px;
+}
+
+#profile p{
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+#profile img{
+	width: 100%;
+	margin-top:30px;
+}
+
+.img-1{
+	width: 100%;
+	height: 250px;
+	background-color: gray;
+}
+
+#belong{
+	text-align: center;
+	margin-top:100px;
+}
+
+.belong-1{
+	width: 100%;
+}
+
+.belong-1 li{
+	float: left;
+    width: 33.333333333333%;
+    text-align: center;
+    padding-right: 30px;
+    margin-bottom: 100px;
+
+}
+
+.belong-1 li img{
+	width: 100%;
+}
+
+.gnav--menu{
+	display: none;
+}
+
+
